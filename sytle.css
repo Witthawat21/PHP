@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin: 0 15px;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-link:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.about-me {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    font-size: 24px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.intro, .education, .hobbies, .contact {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.subheading {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
